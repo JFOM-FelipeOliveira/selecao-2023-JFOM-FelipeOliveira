@@ -12,10 +12,10 @@ function filtrar() {
                     texto = texto.replace(regex, "*".repeat(palavra.length))
 
                     if(texto!=textoInicial){
-                        document.getElementById("alerta").innerText = "Seu texto contém palavras ofensivas/xingamentos!";
+                        document.getElementById("alerta").innerText = "Seu texto contém palavras impróprias!";
                         document.getElementById("alerta").className = "alert alert-danger";
                     }else{
-                        document.getElementById("alerta").innerText = "Seu texto está OK!";
+                        document.getElementById("alerta").innerText = "Seu texto está adequado!";
                         document.getElementById("alerta").className = "alert alert-success";
                     }
                 }
