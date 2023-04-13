@@ -1,0 +1,48 @@
+body{
+    justify-items: center;
+    align-items: center;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+h1 {
+	font-size: 20px;
+ margin-bottom: 20px;
+}
+
+input {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+#textoVerificado {
+	font-size: 16px;
+}
